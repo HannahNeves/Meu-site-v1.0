@@ -149,7 +149,38 @@ input:checked + .slider:before {
 /*----------------------------- HEADER -----------------------------*/
 
 /*----------------------------- FOOTER -----------------------------*/
-footer{
-
+.footer-box{
+    position: relative;
+    height: 136px;
+    background-color: rgba(171, 226, 224, 0.7);
+}
+footer p, .icone-email, .icone-linkedin{
+    position: absolute;
+    display: inline;
+}
+.contatos{
+    font-size: 56px;
+    font-family: 'Dancing Script', cursive;
+    top: 50%;
+    margin-top: -28px;
+    left: 15%;
+}
+.icone-email{
+    width: 100px;
+    top: 50%;
+    margin-top: -40px;
+    left: 30%;
+}
+.icone-linkedin{
+    width: 90px;
+    top: 50%;
+    margin-top: -43px;
+    left: 40%;
+}
+.copyright{
+    font-size: 12px;
+    top: 50%;
+    margin-top: -6px;
+    right: 15%;
 }
 /*----------------------------- FOOTER -----------------------------*/
