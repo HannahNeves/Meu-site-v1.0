@@ -149,10 +149,14 @@ input:checked + .slider:before {
 /*----------------------------- HEADER -----------------------------*/
 
 /*----------------------------- FOOTER -----------------------------*/
-.footer-box{
-    position: relative;
+footer{
     height: 136px;
     background-color: rgba(171, 226, 224, 0.7);
+}
+.footer-box{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
 }
 footer p, .icone-email, .icone-linkedin{
     position: absolute;
@@ -161,26 +165,22 @@ footer p, .icone-email, .icone-linkedin{
 .contatos{
     font-size: 56px;
     font-family: 'Dancing Script', cursive;
-    top: 50%;
-    margin-top: -28px;
-    left: 15%;
+    top: 40px; /* (136-56)/2: (altura do footer - altura do icone)/2 */
 }
 .icone-email{
     width: 100px;
-    top: 50%;
-    margin-top: -40px;
-    left: 30%;
+    left: 25%;
+    top: 27px; /* (136-100)/2: (altura do footer - altura do icone)/2 */
+    /*OBS: A img está deslocada, tive que aumentar o valor de top*/
 }
 .icone-linkedin{
     width: 90px;
-    top: 50%;
-    margin-top: -43px;
     left: 40%;
+    top: 24px; /* (136-90)/2: (altura do footer - altura do icone)/2 */
 }
 .copyright{
     font-size: 12px;
-    top: 50%;
-    margin-top: -6px;
-    right: 15%;
+    right: 0;
+    top: 62px; /* (136-12)/2: (altura do footer - altura do icone)/2 */
 }
 /*----------------------------- FOOTER -----------------------------*/
