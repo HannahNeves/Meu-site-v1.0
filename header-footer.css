@@ -170,6 +170,7 @@ footer p, .icone-email, .icone-linkedin{
     font-family: 'Dancing Script', cursive;
     top: 40px; /* (136-56)/2: (altura do footer - altura do icone)/2 */
 }
+/*------ Botões ------*/
 .icone-email{
     width: 100px;
     left: 25%;
@@ -181,6 +182,7 @@ footer p, .icone-email, .icone-linkedin{
     left: 40%;
     top: 24px; /* (136-90)/2: (altura do footer - altura do icone)/2 */
 }
+/*------ Botões ------*/
 .copyright{
     font-size: 12px;
     right: 0;

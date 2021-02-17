@@ -27,6 +27,7 @@ nav{
     position: relative;
     width: 1000px;
     margin: 0 auto;
+    top: 11.5px;/*(71-48)/2*/
 }
 
 ul p{
@@ -56,15 +57,21 @@ nav li{
 /*------ Ícones ------*/
 
 /*------ Botões ------*/
-nav a>p:hover{
-    transition: .1s;
-    padding-bottom: 3px;
-    border-bottom: 2px solid #F3890C;
+@keyframes sobre-mim-down {
+    0%, 50%, 100% {
+        transform: translateY(0);
+    }
+    25%, 75% {
+        transform: translateY(-6px);
+    }
+}
+nav a:hover img{
+    animation-name: sobre-mim-down;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
 }
 nav a:hover p{
-    transition: .1s;
-    padding-bottom: 3px;
-    border-bottom: 2px solid #F3890C;
+    color: #F3890C;
 }
 .pagina-inicial, .sobre-mim, .formacao-e-certificados, .portfolio, .projetos-cad, .cv, .dark-mode{
     text-align: center;
@@ -81,9 +88,7 @@ nav a:hover p{
 .pagina-inicial h1::first-letter{
     font-size: 50px;
 }
-.sobre-mim{
-    margin: 15px 0;
-}
+
 .formacao-e-certificados, .portfolio, .projetos-cad, .cv{
     margin-left: 82px;
 }
