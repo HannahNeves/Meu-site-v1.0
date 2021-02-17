@@ -4,20 +4,17 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-}
-/*----------------------------- HEADER -----------------------------*/
-.gradient{
-    height: 1096px;
-    background: linear-gradient(#abe2e0, #FFFFFF);
+    background-image: url("Imagens/Background/background.svg"), linear-gradient(#abe2e0, #FFFFFF);
 }
 
+/*----------------------------- HEADER -----------------------------*/
 header{
-    padding: 24px 0;
+    padding-top: 24px;
 }
 
 .header-box{
     position: relative;
-    background:  url("Imagens/Background/cabecalho-pagina-inicial.svg");
+    background-color: #F6FCFC;
     width: 100%;
     height: 71px;
     box-shadow: 0 0 15px 5px rgb(0, 0, 0, 0.25);
@@ -157,7 +154,7 @@ input:checked + .slider:before {
 /*----------------------------- FOOTER -----------------------------*/
 footer{
     height: 136px;
-    background-color: rgba(171, 226, 224, 0.7);
+    background-color: #C5EBEA;
 }
 .footer-box{
     position: relative;
