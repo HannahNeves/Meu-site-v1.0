@@ -1,88 +1,74 @@
-input, button, submit{ border:none; }
-
-main{
-    position: relative;
-    width: 1000px;
-    margin: 0 auto;
+.gradient{
+    height: 1096px;
+    background: linear-gradient(#abe2e0, #FFFFFF);
 }
 
-main > *{
-    position: absolute;
+.principal{
+    width: 1000px;
+    height: 640px;
+    margin: 122px auto 0;
+    text-align: center;
 }
 
 .minha-foto{
+    float: right;
     border-radius: 40px;
     box-shadow: 10px 10px 15px 0px rgb(0, 0, 0, 0.25);
-    right: 0;
-    top: 98px;
 }
 
 main h1{
     font-family: 'Dancing Script', cursive;
     font-size: 72px;
     font-weight: bold;
-    top: 176px;
-    left: 69.85px;
+    padding-top: 78px;
 }
 
 main h2{
     font-family: 'Dancing Script', cursive;
     font-size: 36px;
     font-weight: 600;
-    top: 260px;
-    left: 154px;
+    margin-top: 20px;
+    margin-bottom: 94px;
+}
+
+.principal a{
+    text-decoration: none;
 }
 
 .botao-sobre-mim{
-    text-decoration: none;
-    border-radius: 30px;
-    background-color: #0C7675;
-    width: 280px;
-    height: 62px;
-    box-shadow: 0px 10px 3px 0px rgb(0, 0, 0, 0.25);
-    top: 387px;
-    left: 160px;
-}
-
-.botao-sobre-mim p{
-    position: absolute;
+    display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     color: white;
     font-weight: 800;
-    top: 20px;
-    left: 11.36px;
-}
-
-.botao-sobre-mim:hover{
-    background-color: rgba(12, 118, 117, 0.8);
+    padding: 20px 15px;
+    border-radius: 30px;
+    background-color: #0C7675;
+    box-shadow:
+    0px 6px 3px 0px rgb(0, 0, 0, 0.25),
+    inset 0px 3px 3px 0px rgb(255, 255, 255, 0.4);
 }
 
 .botao-sobre-mim:active{
-    box-shadow: 0px 6px 3px 0px rgb(0, 0, 0, 0.25);
     transform: translateY(4px);
+    background: radial-gradient(rgba(12, 118, 117, 0.75) 30%, #0C7675 100%);
+    box-shadow:
+    0px 3px 3px 0px rgb(0, 0, 0, 0.25),
+    inset 0px 3px 3px 0px rgb(255, 255, 255, 0.25),
+    inset 0px -3px 3px 0px rgb(255, 255, 255, 0.25);
 }
 
-main > p{
+/*------ Animação "Sobre o site" ------*/
+.principal > p{
     font-size: 14px;
-    top: 565px;
-    left: 259.31px;
+    margin-top: 116px;
 }
-
-.setinhas{
-    top: 587px;
-    left: 289px;
-    animation: slide 2s linear infinite;
-}
-
 #arrowAnim {
-    top: 587px;
-    left: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 32px;
 }
-
 .arrow {
     width: 22px;
     height: 22px;
@@ -90,28 +76,73 @@ main > p{
     border-color: black transparent transparent black;
     transform: rotate(-135deg);
 }
-
-
 .arrowSliding {
     position: absolute; 
     animation: slide 4s linear infinite;
 }
-
 .delay1 { 
-    animation-delay: 0.1s;
+    animation-delay: 1s;
 }
-
 .delay2 {
-    animation-delay: 0.2s;
+    animation-delay: 2s;
 }
-
 .delay3 {
-    animation-delay: 0.3s;
+    animation-delay: 3s;
+}
+@keyframes slide {
+    0% { opacity:0; transform: translateY(-30px); }  
+    20% { opacity:1; transform: translateY(-18px); } 
+    80% { opacity:1; transform: translateY(18px); }  
+    100% { opacity:0; transform: translateY(30px); } 
+}
+/*------ Animação "Sobre o site" ------*/
+
+.sobre-o-site-box{
+    background-color: #F6FCFC;
 }
 
-@keyframes slide {
-    0% { opacity:0; transform: translateY(-0px); }  
-    20% { opacity:1; transform: translateY(-1px); } 
-    80% { opacity:1; transform: translateY(2px); }  
-    100% { opacity:0; transform: translateY(3px); } 
+.sobre-o-site{
+    text-align: center;
+    width: 1000px;
+    height: 391px; /*Peguei esse valor no figma*/
+    margin: 0 auto 176px;
+}
+
+.sobre-o-site h3{
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 48px;
+}
+
+.sobre-o-site h4{
+    font-size: 28px;
+    font-weight: 500;
+    padding: 56px 0 24px;
+}
+
+.sobre-o-site p, .sobre-o-site ul{
+    font-size: 18px;
+}
+
+.sobre-o-site div{
+    display: inline-block;
+}
+
+.inspiracao{
+    float: left;
+    width: 60%;
+}
+
+.inspiracao p{
+    text-align: left;
+    line-height: 1.5;
+}
+
+.ferramentas-utilizadas{
+    float: right;
+    width: 40%;
+}
+
+.ferramentas-utilizadas li{
+    line-height: 1.5;
 }

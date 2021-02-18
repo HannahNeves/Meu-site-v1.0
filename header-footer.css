@@ -97,9 +97,7 @@ nav a:hover p{
     margin: 4px;
     font-weight: 500;
 }
-/*------ Botões ------*/
-
-/*------ The Dark Mode's switch buttom ------*/
+/*-- The Dark Mode's switch buttom --*/
 .switch {
     position: relative;
     display: inline-block;
@@ -150,11 +148,13 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
-/*------ The Dark Mode's switch buttom ------*/
+/*-- The Dark Mode's switch buttom --*/
+/*------ Botões ------*/
 /*----------------------------- HEADER -----------------------------*/
 
 /*----------------------------- FOOTER -----------------------------*/
 footer{
+    margin-top: 24px;
     height: 136px;
     background-color: #C5EBEA;
 }

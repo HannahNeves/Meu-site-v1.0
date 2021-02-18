@@ -4,11 +4,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 /*----------------------------- HEADER -----------------------------*/
-.gradient{
-    height: 1096px;
-    background: linear-gradient(#abe2e0, #FFFFFF);
-}
-
 header{
     padding: 24px 0;
 }
@@ -69,7 +64,7 @@ nav a:hover img{
     animation-timing-function: ease-out;
 }
 nav a:hover p{
-    color: #F3890C;
+    color: #FD710C;
 }
 .pagina-inicial, .sobre-mim, .formacao-e-certificados, .portfolio, .projetos-cad, .cv, .dark-mode{
     text-align: center;
@@ -86,7 +81,6 @@ nav a:hover p{
 .pagina-inicial h1::first-letter{
     font-size: 50px;
 }
-
 .formacao-e-certificados, .portfolio, .projetos-cad, .cv{
     margin-left: 82px;
 }
@@ -101,9 +95,7 @@ nav a:hover p{
     margin: 4px;
     font-weight: 500;
 }
-/*------ Botões ------*/
-
-/*------ The Dark Mode's switch buttom ------*/
+/*-- The Dark Mode's switch buttom --*/
 .switch {
     position: relative;
     display: inline-block;
@@ -154,13 +146,15 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
-/*------ The Dark Mode's switch buttom ------*/
+/*-- The Dark Mode's switch buttom --*/
+/*------ Botões ------*/
 /*----------------------------- HEADER -----------------------------*/
 
 /*----------------------------- FOOTER -----------------------------*/
 footer{
     height: 136px;
     background-color: rgba(171, 226, 224, 0.7);
+    margin-top: 24px;
 }
 .footer-box{
     position: relative;
