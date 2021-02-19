@@ -3,6 +3,7 @@
     background: linear-gradient(#abe2e0, #FFFFFF);
 }
 
+/*------ TITULO PRINCIAL E FOTO ------*/
 .principal{
     width: 1000px;
     height: 640px;
@@ -96,7 +97,9 @@ main h2{
     100% { opacity:0; transform: translateY(30px); } 
 }
 /*------ Animação "Sobre o site" ------*/
+/*------ TITULO PRINCIAL E FOTO ------*/
 
+/*------ SOBRE O SITE ------*/
 .sobre-o-site-box{
     background-color: #F6FCFC;
 }
@@ -146,3 +149,4 @@ main h2{
 .ferramentas-utilizadas li{
     line-height: 1.5;
 }
+/*------ SOBRE O SITE ------*/
