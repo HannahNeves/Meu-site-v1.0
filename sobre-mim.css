@@ -103,3 +103,66 @@
 }
 
 /*------ CONHECIMENTOS ------*/
+
+/*------ EXPERIÊNCIA ------*/
+.experiencia{
+    width: 896px;
+    height: 692px;
+    margin: 200px auto 0;
+    border-radius: 50px;
+    background: linear-gradient(rgba(246,252,252,0.6) 0%, rgba(246,252,252,1) 80%);
+    box-shadow: 5px 5px 15px 0px rgb(0, 0, 0, 0.25);
+}
+
+.experiencia h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 24px;
+}
+
+.experiencia img{
+    width: 147px;
+    float: right;
+    margin-top: 40px;
+}
+
+.experiencia h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 48px 0 8px 24px;
+}
+
+.experiencia a{
+    text-decoration: none;
+    color: #0C7675;
+}
+
+.experiencia a:hover{
+    color: #F3890C;
+    text-decoration: underline;
+}
+
+.experiencia p{
+    display: inline;
+    font-size: 14px;
+    margin-left: 24px;
+}
+
+.data{
+    margin-right: 295px;
+}
+
+.tarefas{
+    margin-top: 40px;
+}
+
+.tarefas li{
+    font-size: 18px;
+    margin: 0 0 30px 24px;
+}
+
+.tarefas li::before{
+    content: "🗸";
+}
+/*------ EXPERIÊNCIA  ------*/
