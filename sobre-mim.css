@@ -2,8 +2,7 @@
 .idiomas-e-foto{
     width: 1000px;
     height: 400px;
-    margin: 0 auto;
-    padding-top: 122px;
+    margin: 122px auto 0;
 }
 
 .minha-foto{
@@ -14,6 +13,7 @@
 }
 
 .idiomas{
+    display: inline-block;
     width: 385px;
     height: 200px;
     margin-left: 32px;
@@ -49,3 +49,57 @@
 }
 /*------ IDIOMAS E FOTO ------*/
 
+/*------ CONHECIMENTOS ------*/
+.conhecimentos{
+    width: 1000px;
+    height: 404px;
+    margin: 200px auto 0;
+    border-radius: 50px;
+    background: linear-gradient(rgba(246,252,252,0.6) 0%, rgba(246,252,252,1) 80%);
+    box-shadow: 5px 5px 15px 0px rgb(0, 0, 0, 0.25);
+}
+
+.conhecimentos h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 24px;
+}
+
+.conhecimentos h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+
+.conhecimentos img{
+    width: 24px;
+}
+
+.conhecimentos hr{
+    display: inline-block;
+    width: 820px;
+    margin-left: 32px;
+}
+
+.conhecimento1, .conhecimento2{
+    margin-left: 54px;
+}
+
+.lista-conhecimento1, .lista-conhecimento2{
+    margin-top: 8px;
+}
+
+.conhecimentos li{
+    display: inline-block;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-left: 32px;
+    width: 270px;
+}
+
+.conhecimentos li:before{
+    content: "🗸";
+}
+
+/*------ CONHECIMENTOS ------*/
