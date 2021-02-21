@@ -78,6 +78,7 @@ main h2{
     transform: rotate(-135deg);
 }
 .arrowSliding {
+    opacity: 0;
     position: absolute; 
     animation: slide 4s linear infinite;
 }

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="header-footer-inicio.css">
     <link rel="stylesheet" href="pagina-inicial.css">
 	<link href="fontawesome-free-5.15.2-web/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 </head>
 <body>
 
@@ -68,27 +69,42 @@
             <img src="Imagens/foto-pagina-inicial.png" alt="Hannah, autora do site, sorrindo" class="minha-foto">
             <h1>Hannah M. Neves</h1>
             <h2  lang="en">WEB/UX/UI Designer</h2>
-            <a href="sobre-mim.html"><p class="botao-sobre-mim">Saiba mais sobre mim</p></a>
+            <a href="sobre-mim.html" role="button"><p class="botao-sobre-mim">Saiba mais sobre mim</p></a>
             <p>Sobre o site</p>
-            <div id="arrowAnim">
-                <div class="arrowSliding">
-                    <div class="arrow"></div>
+            <!-- Setinhas -->
+            <a href="#sobre-o-site" class="scroll-suave">
+                <div id="arrowAnim">
+                    <div class="arrowSliding">
+                        <div class="arrow"></div>
+                    </div>
+                    <div class="arrowSliding delay1">
+                        <div class="arrow"></div>
+                    </div>
+                    <div class="arrowSliding delay2">
+                        <div class="arrow"></div>
+                    </div>
+                    <div class="arrowSliding delay3">
+                        <div class="arrow"></div>
+                    </div>
                 </div>
-                <div class="arrowSliding delay1">
-                    <div class="arrow"></div>
-                </div>
-                <div class="arrowSliding delay2">
-                    <div class="arrow"></div>
-                </div>
-                <div class="arrowSliding delay3">
-                    <div class="arrow"></div>
-                </div>
-            </div>
+                <!-- Scroll Suave -->
+                <script>
+                    var $doc = $('html, body');
+                    $('.scroll-suave').click(function() {
+                        $doc.animate({
+                            scrollTop: $( $.attr(this, 'href') ).offset().top
+                        }, 700);
+                        return false;
+                    });
+                </script>
+                <!-- Scroll Suave -->
+            </a>
+            <!-- Setinhas -->
         </section>
 </div>
 
         <div class="sobre-o-site-box">
-            <section class="sobre-o-site">
+            <section class="sobre-o-site" id="sobre-o-site">
                 <h3><span class="fas fa-globe"></span> Sobre o site</h3>
                 <div class="inspiracao">
                     <h4>Inspiração</h4>
