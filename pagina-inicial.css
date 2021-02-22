@@ -109,7 +109,7 @@ main h2{
     text-align: center;
     width: 1000px;
     height: 391px; /*Peguei esse valor no figma*/
-    margin: 0 auto 176px;
+    margin: 0 auto;
 }
 
 .sobre-o-site h3{
