@@ -12,17 +12,18 @@
     font-size: 36px;
     font-weight: bold;
     color: #1b1d1d;
-    margin-top: 122px;
 }
 
 .formacao hr{
     width: 942px;
+    margin-left: 56px;
 }
 
 .formacao h1::before{
     content: url("Imagens/ícones/botao+.svg");
     float: left;
     margin-top: -4px;
+    margin-right: 8px;
 }
 
 .formacao1{
@@ -73,12 +74,14 @@
 
 .certificados hr{
     width: 942px;
+    margin-left: 56px;
 }
 
 .certificados h1::before{
     content: url("Imagens/ícones/botao+.svg");
     float: left;
     margin-top: -4px;
+    margin-right: 8px;
 }
 
 /*------ Instituição ------*/
@@ -102,6 +105,7 @@
     content: url("Imagens/ícones/botao+menor.svg");
     float: left;
     margin-top: -4px;
+    margin-right: 8px;
 }
 /*------ Instituição ------*/
 
