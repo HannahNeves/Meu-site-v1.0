@@ -14,18 +14,6 @@
     color: #1b1d1d;
 }
 
-.formacao hr{
-    width: 942px;
-    margin-left: 56px;
-}
-
-.formacao h1::before{
-    content: url("Imagens/ícones/botao+.svg");
-    float: left;
-    margin-top: -4px;
-    margin-right: 8px;
-}
-
 .formacao1{
     width: 840px;
     height: 214px;
@@ -72,40 +60,27 @@
     margin-top: 200px;
 }
 
-.certificados hr{
-    width: 942px;
-    margin-left: 56px;
-}
-
-.certificados h1::before{
-    content: url("Imagens/ícones/botao+.svg");
-    float: left;
-    margin-top: -4px;
-    margin-right: 8px;
-}
-
 /*------ Instituição ------*/
 .instituicao1{
     width: 958px;
     margin: 0 auto;
+    padding-top: 32px;
+}
+
+.inst1{
+    text-decoration: none;
+    color: #0C7675;
+}
+
+.inst1:hover{
+    color: #F3890C;
+    text-decoration: underline;
 }
 
 .instituicao1 h2{
+    display: inline;
     font-size: 32px;
     font-weight: 600;
-    margin-top: 48px;
-    padding-left: 8px;
-}
-
-.instituicao1 hr{
-    width: 900px;
-}
-
-.instituicao1 h2::before{
-    content: url("Imagens/ícones/botao+menor.svg");
-    float: left;
-    margin-top: -4px;
-    margin-right: 8px;
 }
 /*------ Instituição ------*/
 

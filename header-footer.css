@@ -74,7 +74,7 @@ nav a:hover p{
     color: #F3890C;
 }
 
-.pagina-inicial, .sobre-mim, .formacao-e-certificados, .portfolio, .projetos-cad, .cv, .dark-mode{
+.pagina-inicial, .sobre-mim, .formacao-e-certificados, .portfolio, .projetos-cad, .cv{
     text-align: center;
 }
 
@@ -96,70 +96,6 @@ nav a:hover p{
     margin-left: 82px;
 }
 
-.dark-mode{
-    position: absolute;
-    top: 50%;
-    margin-top: -17px;
-    right: 32px;
-}
-
-.dark-mode p{
-    font-size: 12px;
-    margin: 4px;
-    font-weight: 500;
-}
-/*------ The Dark Mode's switch buttom ------*/
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 30px;
-    height: 14px;
-}
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #1B1D1D;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 8px;
-    width: 8px;
-    left: 3px;
-    bottom: 3px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-input:checked + .slider {
-    background-color: #2196F3;
-}
-input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-}
-input:checked + .slider:before {
-    -webkit-transform: translateX(16px);
-    -ms-transform: translateX(16px);
-    transform: translateX(16px);
-}
-.slider.round {
-    border-radius: 34px;
-}
-.slider.round:before {
-    border-radius: 50%;
-}
-/*------ The Dark Mode's switch buttom ------*/
 /*------ Navigator ------*/
 /*------ HEADER ------*/
 
